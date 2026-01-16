@@ -1058,6 +1058,52 @@ ul {
 }
 
 /* ================================
+   EventHub Embedded Form
+   ================================ */
+#eh-root {
+    max-width: 680px;
+    margin: 24px auto 0;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.96);
+    border-radius: var(--radius-lg);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.18);
+    color: var(--color-dark);
+    text-align: left;
+}
+
+/* width */
+#eh-root form {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* button */
+#eh-root button {
+    background: var(--gradient-primary);
+    color: var(--color-white);
+    border: none;
+    border-radius: var(--radius-full);
+    font-weight: 700;
+}
+
+#eh-root button:hover {
+    filter: brightness(0.98);
+    transform: translateY(-1px);
+}
+
+/* error */
+#eh-root .error {
+    background-color: rgba(232, 90, 113, 0.08);
+}
+
+#eh-root .errorMessages ul {
+    border: 1px solid rgba(232, 90, 113, 0.6);
+    color: var(--color-primary-dark);
+    background-color: rgba(232, 90, 113, 0.08);
+    border-radius: var(--radius-sm);
+}
+
+/* ================================
    Footer
    ================================ */
 .footer {
