@@ -3,6 +3,14 @@
   "name": "fukushima-dx-meetup-2026",
   "rewrites": [
     {
+      "source": "/thanks",
+      "destination": "/thanks.html"
+    },
+    {
+      "source": "/thanks/",
+      "destination": "/thanks.html"
+    },
+    {
       "source": "/(.*)",
       "destination": "/index.html"
     }

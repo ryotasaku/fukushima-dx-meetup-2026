@@ -1119,6 +1119,34 @@ ul {
 }
 
 /* ================================
+   Thanks Page
+   ================================ */
+.thanks-box {
+    margin-top: 32px;
+    text-align: left;
+}
+
+.thanks-note {
+    margin-top: 16px;
+    font-size: 0.9rem;
+    color: var(--color-gray);
+    line-height: 1.7;
+}
+
+.thanks-note a {
+    color: var(--color-secondary);
+    font-weight: 700;
+}
+
+.thanks-actions {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 32px;
+}
+
+/* ================================
    Floating CTA (Mobile)
    ================================ */
 .floating-cta {

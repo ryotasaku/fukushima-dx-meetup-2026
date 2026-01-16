@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let lastScroll = 0;
     
     window.addEventListener('scroll', function() {
+        if (!header) return;
         const currentScroll = window.pageYOffset;
         
         if (currentScroll > 100) {
@@ -27,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const targetElement = document.querySelector(targetId);
             
             if (targetElement) {
-                const headerHeight = header.offsetHeight;
+                const headerHeight = header ? header.offsetHeight : 0;
                 const targetPosition = targetElement.getBoundingClientRect().top + window.pageYOffset - headerHeight;
                 
                 window.scrollTo({
