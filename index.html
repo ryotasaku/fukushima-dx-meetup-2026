@@ -22,6 +22,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="https://client.eventhub.jp/assets/css/eventhub-script.css" />
 </head>
 
 <body>
@@ -144,10 +145,11 @@
                 <div class="program-item program-item-with-photo">
                     <div class="program-badge">Part 1</div>
                     <div class="program-content">
-                        <h3 class="program-name">基調講演</h3>
+                        <h3 class="program-name">登壇タイトル</h3>
                         <p class="program-title-text">官民連携で実現する福島のDXのカタチ<br>
                             <span class="program-subtitle">～地域企業がデジタル変革に向かうべき理由～</span>
                         </p>
+                        <h3 class="program-name">登壇者</h3>
                         <div class="program-speaker-card">
                             <div class="program-speaker-photo">
                                 <img src="images/morito.jpg" alt="森戸 裕一">
@@ -157,6 +159,7 @@
                                 <span class="speaker-org">一般社団法人日本デジタルトランスフォーメーション推進協会 代表理事<br>総務省 地域情報化アドバイザー</span>
                             </div>
                         </div>
+                        <h3 class="program-name">登壇概要</h3>
                         <p class="program-desc">DXを「社会貢献」と「利益創出」の両立モデル（ローカルゼブラ）として再定義。なぜ今、地域企業が変わる必要があるのかを紐解きます。</p>
                     </div>
                 </div>
@@ -165,11 +168,12 @@
                 <div class="program-item program-item-panel">
                     <div class="program-badge">Part 2</div>
                     <div class="program-content">
-                        <h3 class="program-name">パネルディスカッション</h3>
+                        <h3 class="program-name">登壇タイトル</h3>
                         <p class="program-title-text">人口減少社会・AI時代に対応した現場のアップデート<br>
                             <span class="program-subtitle">～『道具』と『ルール』を変えて、仕事の常識を変える50分～</span>
                         </p>
 
+                        <h3 class="program-name">登壇者</h3>
                         <!-- Moderator -->
                         <div class="program-role-section">
                             <span class="program-role-label">モデレーター</span>
@@ -227,6 +231,7 @@
                             </div>
                         </div>
 
+                        <h3 class="program-name">登壇概要</h3>
                         <ul class="program-topics">
                             <li>AI活用、ルール再設計、アナログ業務の改善、稼ぎ方の転換</li>
                             <li>現場目線での「リアルな対話」により、自社に当てはまる改善テーマを持ち帰ります。</li>
@@ -238,7 +243,9 @@
                 <div class="program-item">
                     <div class="program-badge">Part 3</div>
                     <div class="program-content">
-                        <h3 class="program-name">参加者交流会</h3>
+                        <h3 class="program-name">登壇タイトル</h3>
+                        <p class="program-title-text">参加者交流会</p>
+                        <h3 class="program-name">登壇概要</h3>
                         <p class="program-desc">イベント終了後、登壇者や参加者同士で名刺交換・交流の時間を設けます。<br>
                             同じ課題を持つ地元の仲間や、DXの先輩たちとつながるチャンスです。</p>
                     </div>
@@ -385,12 +392,11 @@
         <div class="container">
             <div class="cta-inner">
                 <h2 class="cta-title">定員になり次第、締め切ります。<br>お早めにお申し込みください。</h2>
-                <p class="cta-text">申し込み管理システム「EventHub」にて受付を行います。<br>下記ボタンより登録ページへお進みください。</p>
-                <a href="#" class="btn btn-primary btn-large btn-cta">
-                    <span>今すぐ申し込む（無料）</span>
-                    <span class="btn-arrow">→</span>
-                </a>
-                <p class="btn-note">※EventHubの登録画面が開きます</p>
+                <p class="cta-text">申し込み管理システム「EventHub」にて受付を行います。</p>
+
+                <div id="eh-root"></div>
+                <script async type="text/javascript"
+                    src="https://client-api.eventhub.jp/api/client/embeddedScript/get/2oYiW08mq2/57f6ba77-101b-44f2-8b15-c12ee73d1eff"></script>
             </div>
         </div>
     </section>
