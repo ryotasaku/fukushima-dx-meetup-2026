@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://fukushima-dxmeetup.jdxa.org/sitemap.xml
